@@ -21,6 +21,9 @@ function Navbar() {
           <Link to="./servises">
             <li>Servises</li>
           </Link>
+          <Link to="./cart">
+            <li>Cart</li>
+          </Link>
         </ul>
         <div className="btn1">
           <button>

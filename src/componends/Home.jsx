@@ -40,7 +40,7 @@ console.log(search);
           </div>
         ))}
 
-      {Values.data.product
+      {/* {Values.data.product
         .filter((user) => user.proName.includes(search.searchValues))
         .map((user, index) => (
           <div className="product-card" key={index}>
@@ -48,9 +48,9 @@ console.log(search);
               {user.proName} <br /> {user.proCost}
             </p>
           </div>
-        ))}
+        ))} */}
 
-      <h1>Added items to cart</h1>
+      {/* <h1>Added items to cart</h1>
       {Values.addItems.map((user, index) => (
         <div className="cart-card" key={index}>
           <p>
@@ -65,7 +65,7 @@ console.log(search);
             Remove from cart
           </button>{" "}
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }
